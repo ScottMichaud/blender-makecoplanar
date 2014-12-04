@@ -25,21 +25,14 @@ These vertices will be crushed to the nearest point in an approximate plane of b
 
 ##TODO:
 
-In a future release, I intend to make this an interactive tool. I expect that users would be able to:
+In a future release, I intend to make this an interactive tool. The expected user interaction steps are:
 
 1. Select three-or-more vertices that define your intended plane.
 2. Run the "Make Coplanar" command. If four-or-more, the plane will be an approximate average of these and the vertices will snap to it.
 3. Your selected vertices will deselect.
 4. Select more vertices to add to plane, defined in Step 1.
 5. Press "Enter" to apply these extra vertices, or "Esc" to cancel.
-<<<<<<< HEAD
 6. Step 6 will depend on user feedback, it could be either:
 	a. All vertices will be deselected. OR
 	b. The original vertices (from Step 1) will be selected. OR
 	c. All affected vertices (from Step 1 and Step 4) will be selected.
-=======
-6. Depending on feedback, either:
-a. All vertices will be deselected.
-b. The original vertices (from Step 1) will be selected.
-c. All affected vertices (from Step 1 and Step 4) will be selected.
->>>>>>> parent of 79338f1... Fixed README
