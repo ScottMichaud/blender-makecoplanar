@@ -18,8 +18,8 @@ C:\Program Files\Blender Foundation\Blender\2.72\scripts\addons
 
 1. In Edit Mode, select 3-or-more vertices.
 2. Either:
-	a. Press the space bar and type "Make Coplanar". OR
-	b. Press Ctrl + V (Vertex Tools Menu) and select "Make Coplanar"
+	1. Press the space bar and type "Make Coplanar". OR
+	2. Press Ctrl + V (Vertex Tools Menu) and select "Make Coplanar"
 
 These vertices will be crushed to the nearest point in an approximate plane of best fit for all selected vertices.
 
@@ -33,6 +33,6 @@ In a future release, I intend to make this an interactive tool. The expected use
 4. Select more vertices to add to plane, defined in Step 1.
 5. Press "Enter" to apply these extra vertices, or "Esc" to cancel.
 6. Step 6 will depend on user feedback, it could be either:
-	a. All vertices will be deselected. OR
-	b. The original vertices (from Step 1) will be selected. OR
-	c. All affected vertices (from Step 1 and Step 4) will be selected.
+	1. All vertices will be deselected. OR
+	2. The original vertices (from Step 1) will be selected. OR
+	3. All affected vertices (from Step 1 and Step 4) will be selected.
