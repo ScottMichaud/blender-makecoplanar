@@ -1,5 +1,4 @@
 #Mesh: Make Coplanar (v0.1)
-Author: Scott Michaud
 
 ##Install Instructions:
 
