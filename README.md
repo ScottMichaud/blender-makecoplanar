@@ -1,4 +1,4 @@
-#Mesh: Make Coplanar (v0.1)
+#Mesh: Make Coplanar (v0.5)
 
 ##Install Instructions:
 
@@ -19,19 +19,9 @@ C:\Program Files\Blender Foundation\Blender\2.72\scripts\addons
 2. Either:
 	1. Press the space bar and type "Make Coplanar". OR
 	2. Press Ctrl + V (Vertex Tools Menu) and select "Make Coplanar"
-
-These vertices will be crushed to the nearest point in an approximate plane of best fit for all selected vertices.
-
-##TODO:
-
-In a future release, I intend to make this an interactive tool. The expected user interaction steps are:
-
-1. Select three-or-more vertices that define your intended plane.
-2. Run the "Make Coplanar" command. If four-or-more, the plane will be an approximate average of these and the vertices will snap to it.
-3. Your selected vertices will deselect.
-4. Select more vertices to add to plane, defined in Step 1.
-5. Press "Enter" to apply these extra vertices, or "Esc" to cancel.
-6. Step 6 will depend on user feedback, it could be either:
-	1. All vertices will be deselected. OR
-	2. The original vertices (from Step 1) will be selected. OR
-	3. All affected vertices (from Step 1 and Step 4) will be selected.
+3. The desired plane to move vertices to will be calculated:
+	1. If 3 vertices were selected, it will be the plane that they form.
+	2. If 4+ vertices were selected, an average plane will be calculated. These vertices will be moved onto it.
+4. Your vertices will unselect.
+5. Select more vertices to align with that plane.
+6. Press Enter to move this second selection onto the plane, or ESC to just move the first selection (if 4+).
