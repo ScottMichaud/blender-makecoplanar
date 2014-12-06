@@ -124,6 +124,7 @@ class MakeCoplanar(bpy.types.Operator):
 			return {'RUNNING_MODAL'}
 
 def menu_func(self, context):
+	self.layout.operator_context = 'INVOKE_DEFAULT'
 	self.layout.operator(MakeCoplanar.bl_idname, text="Make Coplanar")
 
 def register():
