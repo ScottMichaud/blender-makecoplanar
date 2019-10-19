@@ -128,11 +128,11 @@ def menu_func(self, context):
 	self.layout.operator(MakeCoplanar.bl_idname, text="Make Coplanar")
 
 def register():
-	bpy.utils.register_module(__name__)
+	bpy.utils.register_class(MakeCoplanar)
 	bpy.types.VIEW3D_MT_edit_mesh_vertices.append(menu_func)
 
 def unregister():
-	bpy.utils.unregister_module(__name__)
+	bpy.utils.unregister_class(MakeCoplanar)
 	bpy.types.VIEW3D_MT_edit_mesh_vertices.remove(menu_func)
 
 if __name__ == "__main__":
