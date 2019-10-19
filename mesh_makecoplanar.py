@@ -1,8 +1,8 @@
 bl_info = {
 	"name":"Make Coplanar",
 	"author": "Scott Michaud",
-	"version": (0,5),
-	"blender": (2,72,0),
+	"version": (0,6),
+	"blender": (2,80,0),
 	"location": "View3D > Specials > Make Coplanar",
 	"Description": "Forces currently selected vertices into their average plane, and a second selection of vertices into that plane.",
 	"warning": "",
